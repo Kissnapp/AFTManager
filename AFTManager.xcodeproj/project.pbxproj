@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		633B52991AB7D62900D9C324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633B529B1AB7D62900D9C324 /* Main.storyboard */; };
 		63C4B4C01AB6AD3600AC36B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C4B4BF1AB6AD3600AC36B2 /* main.m */; };
 		63C4B4C31AB6AD3600AC36B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C4B4C21AB6AD3600AC36B2 /* AppDelegate.m */; };
 		63C4B4C61AB6AD3600AC36B2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C4B4C51AB6AD3600AC36B2 /* BaseViewController.m */; };
@@ -36,7 +37,6 @@
 		63C4B53D1AB6C0CB00AC36B2 /* STARTIMAGE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63C4B53C1AB6C0CB00AC36B2 /* STARTIMAGE.jpg */; };
 		63C4B5411AB6C48A00AC36B2 /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C4B5401AB6C48A00AC36B2 /* UIColor+expanded.m */; };
 		63C4B5441AB6C4C500AC36B2 /* UIImage+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C4B5431AB6C4C500AC36B2 /* UIImage+Common.m */; };
-		63C4B5461AB6C65F00AC36B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C4B5451AB6C65F00AC36B2 /* Main.storyboard */; };
 		C6B4F80D70BC95DC2BCAB8B9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA3702F83E7CE9677B4273C /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +52,7 @@
 
 /* Begin PBXFileReference section */
 		1E9CF8EDAA7ECE3FB892DEAA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		633B529A1AB7D62900D9C324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63C4B4BA1AB6AD3600AC36B2 /* AFTManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFTManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C4B4BE1AB6AD3600AC36B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63C4B4BF1AB6AD3600AC36B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -97,7 +98,6 @@
 		63C4B5401AB6C48A00AC36B2 /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
 		63C4B5421AB6C4C500AC36B2 /* UIImage+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Common.h"; sourceTree = "<group>"; };
 		63C4B5431AB6C4C500AC36B2 /* UIImage+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Common.m"; sourceTree = "<group>"; };
-		63C4B5451AB6C65F00AC36B2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		6752F46190AA7C06309C201A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		EBA3702F83E7CE9677B4273C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -149,7 +149,7 @@
 			children = (
 				63C4B4C11AB6AD3600AC36B2 /* AppDelegate.h */,
 				63C4B4C21AB6AD3600AC36B2 /* AppDelegate.m */,
-				63C4B5451AB6C65F00AC36B2 /* Main.storyboard */,
+				633B529B1AB7D62900D9C324 /* Main.storyboard */,
 				63C4B4CA1AB6AD3600AC36B2 /* Images.xcassets */,
 				63C4B5011AB6B30000AC36B2 /* Controllers */,
 				63C4B5471AB6D3E900AC36B2 /* Views */,
@@ -173,7 +173,6 @@
 		63C4B4D61AB6AD3600AC36B2 /* AFTManagerTests */ = {
 			isa = PBXGroup;
 			children = (
-				63C4B4E91AB6AEA900AC36B2 /* Frameworks */,
 				63C4B4D91AB6AD3600AC36B2 /* AFTManagerTests.m */,
 				63C4B4D71AB6AD3600AC36B2 /* Supporting Files */,
 			);
@@ -186,17 +185,6 @@
 				63C4B4D81AB6AD3600AC36B2 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		63C4B4E91AB6AEA900AC36B2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				63C4B4E51AB6AE2E00AC36B2 /* Foundation.framework */,
-				63C4B4E71AB6AE3400AC36B2 /* CoreGraphics.framework */,
-				63C4B4E31AB6AE2700AC36B2 /* UIKit.framework */,
-			);
-			name = Frameworks;
-			path = ../AFTManager;
 			sourceTree = "<group>";
 		};
 		63C4B4EA1AB6AFDB00AC36B2 /* Vender */ = {
@@ -302,6 +290,9 @@
 		8A90BFF306F6C761B5B0E2A8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				63C4B4E31AB6AE2700AC36B2 /* UIKit.framework */,
+				63C4B4E71AB6AE3400AC36B2 /* CoreGraphics.framework */,
+				63C4B4E51AB6AE2E00AC36B2 /* Foundation.framework */,
 				EBA3702F83E7CE9677B4273C /* libPods.a */,
 			);
 			name = Frameworks;
@@ -405,7 +396,7 @@
 				63C4B5341AB6BF8800AC36B2 /* privatemessage_normal@2x.png in Resources */,
 				63C4B5351AB6BF8800AC36B2 /* privatemessage_selected@2x.png in Resources */,
 				63C4B4CB1AB6AD3600AC36B2 /* Images.xcassets in Resources */,
-				63C4B5461AB6C65F00AC36B2 /* Main.storyboard in Resources */,
+				633B52991AB7D62900D9C324 /* Main.storyboard in Resources */,
 				63C4B53D1AB6C0CB00AC36B2 /* STARTIMAGE.jpg in Resources */,
 				63C4B5321AB6BF8800AC36B2 /* me_normal@2x.png in Resources */,
 				63C4B5381AB6BF8800AC36B2 /* task_normal@2x.png in Resources */,
@@ -494,6 +485,17 @@
 			targetProxy = 63C4B4D41AB6AD3600AC36B2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		633B529B1AB7D62900D9C324 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				633B529A1AB7D62900D9C324 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		63C4B4DB1AB6AD3600AC36B2 /* Debug */ = {
