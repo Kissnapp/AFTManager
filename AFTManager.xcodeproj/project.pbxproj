@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		633B52991AB7D62900D9C324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633B529B1AB7D62900D9C324 /* Main.storyboard */; };
+		633F82471AC0FA7F006C336E /* BuyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 633F82461AC0FA7F006C336E /* BuyCell.m */; };
 		63C4B4C01AB6AD3600AC36B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C4B4BF1AB6AD3600AC36B2 /* main.m */; };
 		63C4B4C31AB6AD3600AC36B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C4B4C21AB6AD3600AC36B2 /* AppDelegate.m */; };
 		63C4B4C61AB6AD3600AC36B2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C4B4C51AB6AD3600AC36B2 /* BaseViewController.m */; };
@@ -53,6 +54,8 @@
 /* Begin PBXFileReference section */
 		1E9CF8EDAA7ECE3FB892DEAA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		633B529A1AB7D62900D9C324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		633F82451AC0FA7F006C336E /* BuyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyCell.h; sourceTree = "<group>"; };
+		633F82461AC0FA7F006C336E /* BuyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyCell.m; sourceTree = "<group>"; };
 		63C4B4BA1AB6AD3600AC36B2 /* AFTManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFTManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C4B4BE1AB6AD3600AC36B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63C4B4BF1AB6AD3600AC36B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -124,6 +127,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6378877F1AB96A2600E887C2 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		637887801AB96A4F00E887C2 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		637887811AB96A6500E887C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		63C4B4B11AB6AD3600AC36B2 = {
 			isa = PBXGroup;
 			children = (
@@ -151,7 +175,9 @@
 				63C4B4C21AB6AD3600AC36B2 /* AppDelegate.m */,
 				633B529B1AB7D62900D9C324 /* Main.storyboard */,
 				63C4B4CA1AB6AD3600AC36B2 /* Images.xcassets */,
+				637887811AB96A6500E887C2 /* Models */,
 				63C4B5011AB6B30000AC36B2 /* Controllers */,
+				637887801AB96A4F00E887C2 /* Resource */,
 				63C4B5471AB6D3E900AC36B2 /* Views */,
 				63C4B5001AB6B2A000AC36B2 /* Image */,
 				63C4B4FF1AB6B29600AC36B2 /* Utils */,
@@ -244,6 +270,8 @@
 		63C4B50E1AB6B56600AC36B2 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				633F82451AC0FA7F006C336E /* BuyCell.h */,
+				633F82461AC0FA7F006C336E /* BuyCell.m */,
 				63C4B4C41AB6AD3600AC36B2 /* BaseViewController.h */,
 				63C4B4C51AB6AD3600AC36B2 /* BaseViewController.m */,
 				63C4B50F1AB6B89000AC36B2 /* BaseNavigationController.h */,
@@ -283,6 +311,7 @@
 		63C4B5471AB6D3E900AC36B2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6378877F1AB96A2600E887C2 /* CustomCell */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -458,6 +487,7 @@
 				63C4B5071AB6B36800AC36B2 /* ProjectViewController.m in Sources */,
 				63C4B4C61AB6AD3600AC36B2 /* BaseViewController.m in Sources */,
 				63C4B4FD1AB6B17200AC36B2 /* RDVTabBarController.m in Sources */,
+				633F82471AC0FA7F006C336E /* BuyCell.m in Sources */,
 				63C4B4C31AB6AD3600AC36B2 /* AppDelegate.m in Sources */,
 				63C4B4FC1AB6B17200AC36B2 /* RDVTabBar.m in Sources */,
 				63C4B4C01AB6AD3600AC36B2 /* main.m in Sources */,
